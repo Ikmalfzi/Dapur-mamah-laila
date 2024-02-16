@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>about us</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<header class="header">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">DAPUR MAMAH LAILA😋</a>
+
+      <nav class="navbar">
+         <a href="home.html">home</a>
+         <a href="about.html">about</a>
+         <a href="menu.html">menu</a>
+         <a href="orders.html">orders</a>
+         <a href="contact.html">contact</a>
+      </nav>
+
+      <div class="icons">
+         <a href="search.html"><i class="fas fa-search"></i></a>
+         <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(3)</span></a>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <div class="profile">
+         <p class="name">LAILA</p>
+         <div class="flex">
+            <a href="profile.html" class="btn">profile</a>
+            <a href="#" class="delete-btn">logout</a>
+         </div>
+         <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="heading">
+   <h3>about us</h3>
+   <p><a href="home.html">home </a> <span> / about</span></p>
+</div>
+
+<section class="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/koki.jpg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>DAPUR MAMAH LAILA</h3>
+         <p>Dapur Mamah Laila adalah pangkalan rasa yang membawa kenikmatan kepada setiap hidangan. Setiap sentuhan, setiap rempah, dan setiap resep adalah ungkapan cinta dan keahlian dari hati yang penuh kasih. Di balik setiap hidangan tersembunyi cerita kehangatan keluarga dan kebersamaan yang melebur dalam setiap suapan. Dapur Mamah Laila, tempat di mana cita rasa bertemu dengan kebahagiaan. </p>
+         <a href="menu.html" class="btn">ayo pesan</a>
+      </div>
+
+   </div>
+
+</section>
+
+<section class="steps">
+
+   <h1 class="title">3 langkah sederhana</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/step-1.png" alt="">
+         <h3>buat akun ,pilih makanan</h3>
+         <p>buat akun terlebih dahulu dan lenkapi nama ,alamat dan nomor.lalu pilih makanan yang anda beli .</p>
+      </div>
+
+      <div class="box">
+         <img src="images/step-2.png" alt="">
+         <h3>tunggu pengiriman 30 minet</h3>
+         <p>Tunggu pesana anda .</p>
+      </div>
+
+      <div class="box">
+         <img src="images/step-3.png" alt="">
+         <h3>nikmati makanannya!</h3>
+         <p>setelah sampai bayar terlebih dahulu ,lalu makan dan selamat menikmati^_^.</p>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   <section class="box-container">
+
+      <div class="box">
+         <img src="images/email-icon.png" alt="">
+         <h3>email</h3>
+         <a href="mailto:Lailatunnafila@gmail.com">Lailatunnafila1234@gmail.com</a>
+         <a href="mailto:ikmalfauzan1234@gmail.com">ikmalfauzan1234@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <img src="images/clock-icon.png" alt="">
+         <h3>Buka </h3>
+         <p>08.00WIB SAMPAI 17.00WIB</p>
+      </div>
+
+      <div class="box">
+         <img src="images/map-icon.png" alt="">
+         <h3>alamat</h3>
+         <a href="https://maps.app.goo.gl/DGLeJSk13VqhL1Vh8">Sumurpecung, Kec. Serang, Kota Serang, Banten,Jl. Trip Jamaksari.SAMPING MADERASAH AL JAUHAROTUNNAQIYYAH </a>
+      </div>
+
+      <div class="box">
+         <img src="images/phone-icon.png" alt="">
+         <h3>WhatsApp</h3>
+         <a href="https://wa.me/089502683483">089502683483</a>
+         <a href="https://wa.me/message/FW5ZF5Q4XZRYM1">081324398759</a>
+      </div>
+
+   </section>
+
+   <div class="credit">dapur mamah laila| <span>selamat menikmati</span> | terimahkasih!</div>
+
+</footer>
+
+
+
+
+
+
+
+<div class="loader">
+   <img src="images/loader.gif" alt="">
+</div>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+
+var swiper = new Swiper(".reviews-slider", {
+   loop:true,
+   grabCursor:true,
+            spaceBetween: 20,
+   pagination: {
+      el: ".swiper-pagination",
+   },
+   breakpoints: {
+      550: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+   },
+});
+
+</script>
+
+</body>
+</html>
